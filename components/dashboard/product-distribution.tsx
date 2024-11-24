@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts"
+import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 
 const data = [
   { name: "Poultry", value: 35 },
@@ -8,9 +8,9 @@ const data = [
   { name: "Tomato", value: 15 },
   { name: "Rice", value: 15 },
   { name: "Cattle", value: 10 }
-]
+];
 
-const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#8884D8"]
+const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#8884D8"];
 
 export function ProductDistribution() {
   return (
@@ -33,5 +33,5 @@ export function ProductDistribution() {
         <Tooltip />
       </PieChart>
     </ResponsiveContainer>
-  )
+  );
 }

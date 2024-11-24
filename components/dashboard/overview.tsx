@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
+import { Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const data = [
   { month: "Jan", production: 2890 },
@@ -15,7 +15,7 @@ const data = [
   { month: "Oct", production: 3300 },
   { month: "Nov", production: 3408 },
   { month: "Dec", production: 3450 }
-]
+];
 
 export function Overview() {
   return (
@@ -45,5 +45,5 @@ export function Overview() {
         />
       </LineChart>
     </ResponsiveContainer>
-  )
+  );
 }
